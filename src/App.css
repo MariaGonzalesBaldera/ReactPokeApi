@@ -5,27 +5,41 @@
   text-align: center;
 }
 
-.nav ul{
-  display :flex;
+.nav ul {
+  display: flex;
   list-style: none;
-  gap:2.5rem;
+  gap: 2.5rem;
 }
-.nav > ul > li > a{
+
+.nav > ul > li > a {
   text-decoration: none;
   color: #383838;
 }
-.nav > ul > li > a:hover{
-  font-size:1.1rem;
+
+.nav > ul > li > a:hover {
+  font-size: 1.1rem;
   transition: font-size ease 300ms;
 }
-.sponsor{
+
+.sponsor {
   display: flex;
   justify-content: center;
   list-style: none;
-  gap:3rem
+  gap: 3rem;
 }
-.sponsor>li{
-  border:solid;
+
+.sponsor > li {
+  border: solid;
   padding: 0.5rem;
   border-radius: 12px;
+}
+
+img {
+  margin-top: 20px;
+}
+
+.pokename {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 800;
 }

@@ -19,6 +19,7 @@ function App() {
         Add number
       </button>
     </div>
+    <SeachPokemon/>
     <Footer name='Maria Cristina' sponsors={["Sponsor 1","Sponsor 2","Sponsor 3"]}/>
     </>
   )
